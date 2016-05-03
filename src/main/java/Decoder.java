@@ -11,16 +11,9 @@ import java.util.Map;
  */
 public class Decoder {
 
-    public static String decode(String plaintext) {
+    public String decode(String plaintext) {
 
         return null;
     }
 
-    public static void main(String[] args) throws IOException {
-        Path path = Paths.get("src/main/resources/plaintext.txt");
-        try (BufferedReader reader = Files.newBufferedReader(path, StandardCharsets.UTF_8)){
-            String plaintext = reader.readLine();
-            System.out.println(decode(plaintext));
-        }
-    }
 }
